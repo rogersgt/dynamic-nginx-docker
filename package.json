@@ -4,7 +4,7 @@
   "description": "dynamic nginx docker image",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "docker build -t dynamic-nginx-docker:latest ."
   },
   "author": "Grady Rogers",
   "license": "ISC"
